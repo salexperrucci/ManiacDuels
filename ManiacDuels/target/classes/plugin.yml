@@ -1,0 +1,12 @@
+name: ManiacDuels
+version: '${project.version}'
+main: org.salexperrucci.duels.DuelsPlugin
+author: salexperrucci
+commands:
+  duels:
+    description: Join a duel
+  arena:
+    description: Setup arenas
+permissions:
+  duels.admin:
+    description: The admin permission for the plugin.
